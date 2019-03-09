@@ -1,5 +1,7 @@
 # MotoLean
-Scientific Calculation Application (Servlets and JSPs)
+Scientific Calculation Application (Servlets and JSPs, HTML)
+
+IDE: Eclipse
 
 The app shows information about the maximum lean angle of different motorcycles.
 It also contains calculator which works with user input.
