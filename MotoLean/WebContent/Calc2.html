@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Въведете тип МПС</title>
+</head>
+<body>
+
+<form action="calculatorServlet" method="post">
+<h1>Изберете тип мотоциклет или специфичен коефициент на триене</h1><br/>
+1.Скутер - Макс. наклон 40 deg<br/>
+2.Пистов мотор - Макс. наклон 50 deg<br/>
+3.Super Sport - Макс. наклон 55 deg<br/>
+4.SBK - Макс. наклон 61 deg<br/>
+5.MotoGP - Макс. наклон 64 deg<br/>
+Моля въведете номера на Вашия избор<input type="text" name="motociklet" value="0"><br/><br/>
+
+Ако желаете да използвате специфичен коеф. на триене, въведете го тук (типът мотоциклет ще се пренебрегне)<br/>
+<input type="text" name="koeftr" value="0"> изчислете <a href='http://hpwizard.com/tire-friction-coefficient.html'>тук.</a><br/>
+
+
+<h1>Скорост, радиус на завой</h1> 
+
+Моля въведете скорост при влизане в завоя в км/ч: <input type="text" name="skorost"><br/>
+Моля въведете радиус на завоя в метри: <input type="text" name="radius"><br/>
+<input type="submit" name="submit">
+</form>
+
+</body>
+</html>
